@@ -20,6 +20,7 @@
     <Content Include="smitescript\package.json" />
     <Compile Include="smitescript\smite.js" />
     <Content Include="README.md" />
+    <Content Include="smitescript\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="smitescript\" />
