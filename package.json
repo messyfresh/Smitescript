@@ -1,0 +1,16 @@
+{
+  "name": "Smitescript",
+  "version": "0.0.1",
+  "description": "A framework for interfacing the Smite REST API",
+  "main": "smite.js",
+  "author": {
+    "name": "Messyfresh",
+    "email": "messyfresh@gmail.com"
+  },
+  "dependencies": {
+    "JSONStream": "^0.10.0",
+    "MD5": "^1.2.1",
+    "moment": "^2.8.4",
+    "request": "^2.51.0"
+  }
+}
