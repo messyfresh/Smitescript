@@ -1,7 +1,7 @@
 {
-  "name": "Smitescript",
+  "name": "smitescript",
   "version": "0.0.1",
-  "description": "A framework for interfacing the Smite REST API",
+  "description": "A framework for interacting with the Smite REST API",
   "main": "smite.js",
   "author": {
     "name": "Messyfresh",

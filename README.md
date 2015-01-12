@@ -2,6 +2,9 @@
 A node.js library for making calls to the HiRez Smite API.
 
 # How to Use
+Simply include smitescript in your code and start making calls.
+	var smite = require('smite')
+
 	- Currently implemented
 		createSession
 			- Generates a session with the Smite API Server
