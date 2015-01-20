@@ -1,5 +1,17 @@
 # Smitescript
-Its fixed now, I apologize for the broken update.
+# Updated 20 Jan 2015
+	Added the following new calls
+			- getPlayer
+				List all info about a player
+			- getFriends
+				List all of a players friends
+			- getGodRank
+				List the rank of all of the gods for
+				a player
+			- getTopMatches
+				Lists the 50 most watched / most recent
+				recorded matches
+
 A node.js library for making calls to the HiRez Smite API.
 
 # How to Use
@@ -50,9 +62,19 @@ Here is another example for creating a session:
 		Generates a session with the Smite API Server
 		(Sessions last 15 min)
 	- getGods
-		List all current gods with info on each.
+		List all current gods with info on each
 	- getItems
-		List all current items with info for each.
+		List all current items with info for each
+	- getPlayer
+		List all info about a player
+	- getFriends
+		List all of a players friends
+	- getGodRank
+		List the rank of all of the gods for
+		a player
+	- getTopMatches
+		Lists the 50 most watched / most recent
+		recorded matches
 
 # TODO
 	- Create functions for all of the API calls.
@@ -60,4 +82,5 @@ Here is another example for creating a session:
 	- Be Awesome!
 
 # Be sure and check out the package and hack away at it!
+# I'm writing this to learn and for my own personal use.
 # Let me know what you come up with.
