@@ -30,12 +30,12 @@ function getPlayer(devId, authKey, sessionId, playerName){
     request(baseUri + "getplayerjson/" + devId + '/' + hash + '/' + sessionId + '/' + utcTime + '/' + playerName).pipe(parser.parse("*")).pipe(parser.stringify()).pipe(fs.createWriteStream('player.json'));
 }
 
-function getFriends(devId authKey, sessionId, playerName){
+function getFriends(devId, authKey, sessionId, playerName){
     var hash = md5(devId + "getfriends" + authKey + utcTime)
     request(baseUri + "getfriendsjson/" + devId + '/' + hash + '/' + sessionId + '/' + utcTime + '/' + playerName).pipe(parser.parse("*")).pipe(parser.stringify()).pipe(fs.createWriteStream('friends.json'));
 }
 
-function getGodRank(devId authKey, sessionId, playerName) {
+function getGodRank(devId, authKey, sessionId, playerName) {
     var hash = md5(devId + "getgodrank" + authKey + utcTime)
     request(baseUri + "getgodrankjson/" + devId + '/' + hash + '/' + sessionId + '/' + utcTime + '/' + playerName).pipe(parser.parse("*")).pipe(parser.stringify()).pipe(fs.createWriteStream('godrank.json'));
 }
