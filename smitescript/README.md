@@ -1,4 +1,6 @@
 # Smitescript
+A node.js library for making calls to the HiRez Smite API.
+
 # Updated 20 Jan 2015
 	Added the following new calls
 			- getPlayer
@@ -12,7 +14,6 @@
 				Lists the 50 most watched / most recent
 				recorded matches
 
-A node.js library for making calls to the HiRez Smite API.
 
 # How to Use
 	
@@ -81,6 +82,6 @@ Here is another example for creating a session:
 	- Establish mechanism to check if a session is expired.
 	- Be Awesome!
 
-# Be sure and check out the package and hack away at it!
-# I'm writing this to learn and for my own personal use.
-# Let me know what you come up with.
+Be sure and check out the package and hack away at it!
+I'm writing this to learn and for my own personal use.
+Let me know what you come up with.
