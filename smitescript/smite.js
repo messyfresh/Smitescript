@@ -1,5 +1,5 @@
 ﻿var fs = require('fs'),
-    md5 = require('md5'),
+    md5 = require('MD5'),
     request = require('request'),
     parser = require('JSONStream'), // Remember to put .parse(what to parse) here when this is called
     moment = require('moment'),
