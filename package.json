@@ -2,15 +2,19 @@
   "name": "smitescript",
   "version": "0.0.5",
   "description": "A framework for interacting with the Smite REST API",
-  "main": "smite.js",
+  "main": "smite-script.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/messyfresh/Smitescript.git"
+  },
   "author": {
     "name": "Messyfresh",
     "email": "messyfresh@gmail.com"
   },
   "dependencies": {
-    "JSONStream": "^0.10.0",
-    "MD5": "^1.2.1",
-    "moment": "^2.8.4",
-    "request": "^2.51.0"
+    "lodash.assign": "^3.2.0",
+    "log4node": "^0.1.6",
+    "md5": "^2.0.0",
+    "moment": "^2.10.6"
   }
 }
